@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-07-seoul",
+  "Type": "Hotel",
+  "Title": "Seoul, South Korea",
+  "StartDate": "2025-07-13",
+  "EndDate": "2025-07-20",
+  "StartCity": "Seoul",
+  "EndCity": "Seoul",
+  "StartCountryCode": "KR",
+  "EndCountryCode": "KR",
+  "TransportMode": "Flight",
+  "Carrier": "China Eastern / Airbnb",
+  "BookingRef": "",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "3BR Airbnb near subway station. Flight booked Jun 20 via Capital One/China Eastern. Host Min requested reservation change Jul 19.",
+  "Companions": [],
+  "Highlights": ["Seoul"],
+  "DaysUnaccounted": 0
+}

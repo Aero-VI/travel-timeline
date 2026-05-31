@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-02-flight-den-bhx",
+  "Type": "Flight",
+  "Title": "Flight: Denver to Birmingham, UK",
+  "StartDate": "2025-02-26",
+  "EndDate": "2025-02-27",
+  "StartCity": "Denver",
+  "EndCity": "Birmingham",
+  "StartCountryCode": "US",
+  "EndCountryCode": "GB",
+  "TransportMode": "Flight",
+  "Carrier": "Delta/KLM",
+  "BookingRef": "GXLQ49",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "19,965 miles used. Operated by Delta & KLM.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-03-gap-uk",
+  "Type": "Unknown",
+  "Title": "Gap: UK/Europe Period",
+  "StartDate": "2025-02-28",
+  "EndDate": "2025-04-04",
+  "StartCity": "Birmingham",
+  "EndCity": "Unknown",
+  "StartCountryCode": "GB",
+  "EndCountryCode": "FR",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "In UK/Europe. Arcadien Hotel Apr 5-7 likely France. Limited email evidence for this period.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 35
+}

@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-04-carnival-valor",
+  "Type": "Cruise",
+  "Title": "Carnival Valor - Transatlantic",
+  "StartDate": "2025-04-24",
+  "EndDate": "2025-05-10",
+  "StartCity": "New Orleans",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "GB",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "CM47Q6",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Journeys cruise (Transatlantic). Stockperks $100 OBC applied. Casino player bank balance request Aug 30.",
+  "Companions": [],
+  "Highlights": ["Transatlantic crossing"],
+  "DaysUnaccounted": 0
+}

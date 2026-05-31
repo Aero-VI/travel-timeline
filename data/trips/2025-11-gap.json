@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-11-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Mardi Gras to Austin",
+  "StartDate": "2025-11-16",
+  "EndDate": "2025-12-04",
+  "StartCity": "Port Canaveral",
+  "EndCity": "Myrtle Beach",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Likely home in Myrtle Beach after back-to-back-to-back Mardi Gras cruises.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 19
+}

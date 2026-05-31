@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-10-gap-europe",
+  "Type": "Unknown",
+  "Title": "Gap: Athens to Barcelona to Mardi Gras",
+  "StartDate": "2025-10-06",
+  "EndDate": "2025-10-15",
+  "StartCity": "Athens",
+  "EndCity": "Barcelona",
+  "StartCountryCode": "GR",
+  "EndCountryCode": "ES",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Between Carnival Miracle disembark in Athens and ATH→BCN flight Oct 15. Likely explored Greece.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 9
+}

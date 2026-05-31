@@ -1,0 +1,41 @@
+[
+  {
+    "EventId": "evt-2023-09-bermuda-tour",
+    "TripId": "2023-09-carnival-magic",
+    "EventType": "Excursion",
+    "Title": "Best of Bermuda Island Tour",
+    "City": "Bermuda",
+    "CountryCode": "BM",
+    "StartTime": "2023-09-12",
+    "EndTime": "2023-09-12",
+    "IsFullDay": true,
+    "Verified": true,
+    "Notes": "Shore excursion during Carnival Magic Bermuda cruise"
+  },
+  {
+    "EventId": "evt-2026-03-f1-tokyo",
+    "TripId": "2026-03-tokyo",
+    "EventType": "Event",
+    "Title": "F1 at Tokyo Tower",
+    "City": "Tokyo",
+    "CountryCode": "JP",
+    "StartTime": "2026-03-15",
+    "EndTime": "2026-03-15",
+    "IsFullDay": true,
+    "Verified": true,
+    "Notes": "F1 exhibition at Tokyo Tower"
+  },
+  {
+    "EventId": "evt-2026-03-honda",
+    "TripId": "2026-03-tokyo",
+    "EventType": "Event",
+    "Title": "Honda Exhibition",
+    "City": "Tokyo",
+    "CountryCode": "JP",
+    "StartTime": "2026-03-16",
+    "EndTime": "2026-03-16",
+    "IsFullDay": true,
+    "Verified": true,
+    "Notes": "Honda exhibition visit during Tokyo stay"
+  }
+]

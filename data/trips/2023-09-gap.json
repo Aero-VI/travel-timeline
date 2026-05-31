@@ -1,0 +1,20 @@
+{
+  "TripId": "2023-09-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Bermuda to End of 2023",
+  "StartDate": "2023-09-18",
+  "EndDate": "2023-12-31",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "No email evidence. Likely home in Myrtle Beach.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 105
+}

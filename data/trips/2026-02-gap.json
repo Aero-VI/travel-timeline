@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-02-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Encounter to Tokyo Flight",
+  "StartDate": "2026-02-17",
+  "EndDate": "2026-02-20",
+  "StartCity": "Singapore",
+  "EndCity": "Unknown",
+  "StartCountryCode": "SG",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Between Encounter disembark and ZIPAIR to Tokyo.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 4
+}

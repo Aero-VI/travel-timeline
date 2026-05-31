@@ -1,0 +1,22 @@
+[
+  {
+    "TripId": "carnival-magic-bermuda-2023",
+    "Type": "Cruise",
+    "Title": "Carnival Magic - Bermuda",
+    "StartDate": "2023-09-10",
+    "EndDate": "2023-09-17",
+    "StartCity": "Norfolk",
+    "EndCity": "Norfolk",
+    "StartCountryCode": "US",
+    "EndCountryCode": "US",
+    "TransportMode": "Cruise",
+    "Carrier": "Carnival Cruise Line",
+    "BookingRef": "T3V1Q3",
+    "Verified": true,
+    "Confidence": "high",
+    "Notes": "Bermuda itinerary. End date estimated (7-day cruise).",
+    "Companions": [],
+    "Highlights": [],
+    "DaysUnaccounted": 0
+  }
+]

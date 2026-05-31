@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-09-carnival-alaska",
+  "Type": "Cruise",
+  "Title": "Carnival Alaska - Journeys",
+  "StartDate": "2026-09-17",
+  "EndDate": "2026-09-26",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "JP91J2",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "9 days. Journeys - Alaska. Itinerary change notice Mar 23, 2026.",
+  "Companions": [],
+  "Highlights": ["Alaska"],
+  "DaysUnaccounted": 0
+}

@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-02-carnival-encounter",
+  "Type": "Cruise",
+  "Title": "Carnival Encounter - SE Asia",
+  "StartDate": "2026-02-03",
+  "EndDate": "2026-02-16",
+  "StartCity": "Singapore",
+  "EndCity": "Singapore",
+  "StartCountryCode": "SG",
+  "EndCountryCode": "SG",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "JX97N6",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "13 days. SE Asia from Singapore. Casino survey Feb 27. Cancellation notice Feb 10 (flagged suspicious).",
+  "Companions": [],
+  "Highlights": ["SE Asia", "Singapore"],
+  "DaysUnaccounted": 0
+}

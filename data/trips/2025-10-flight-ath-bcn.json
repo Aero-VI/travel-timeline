@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-10-flight-ath-bcn",
+  "Type": "Flight",
+  "Title": "Flight: Athens to Barcelona",
+  "StartDate": "2025-10-15",
+  "EndDate": "2025-10-15",
+  "StartCity": "Athens",
+  "EndCity": "Barcelona",
+  "StartCountryCode": "GR",
+  "EndCountryCode": "ES",
+  "TransportMode": "Flight",
+  "Carrier": "Gotogate/Booking.com",
+  "BookingRef": "40-802984262",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Departure 11:10-11:45, arrival 13:25-14:00. Flight changed Oct 12.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

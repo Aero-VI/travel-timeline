@@ -1,0 +1,20 @@
+{
+  "TripId": "2023-01-gap-pre",
+  "Type": "Unknown",
+  "Title": "Gap: Start of 2023",
+  "StartDate": "2023-01-01",
+  "EndDate": "2023-01-11",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Likely home in Myrtle Beach.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 11
+}

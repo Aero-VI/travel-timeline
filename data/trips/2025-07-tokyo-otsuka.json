@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-07-tokyo-otsuka",
+  "Type": "Hotel",
+  "Title": "Tokyo - Otsuka, Toshima",
+  "StartDate": "2025-07-25",
+  "EndDate": "2025-08-01",
+  "StartCity": "Tokyo",
+  "EndCity": "Tokyo",
+  "StartCountryCode": "JP",
+  "EndCountryCode": "JP",
+  "TransportMode": "Unknown",
+  "Carrier": "Airbnb",
+  "BookingRef": "",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "NEW20%OFF! Open+Vibrant Home Otsuka Toshima",
+  "Companions": [],
+  "Highlights": ["Otsuka", "Toshima"],
+  "DaysUnaccounted": 0
+}

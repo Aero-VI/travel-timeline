@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-09-transatlantic",
+  "Type": "Cruise",
+  "Title": "Transatlantic Cruise (14 days)",
+  "StartDate": "2025-09-13",
+  "EndDate": "2025-09-27",
+  "StartCity": "Unknown",
+  "EndCity": "Barcelona",
+  "StartCountryCode": "US",
+  "EndCountryCode": "ES",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "Z0VR58",
+  "Verified": true,
+  "Confidence": "medium",
+  "Notes": "14-day transatlantic. Ship unknown (likely Carnival Miracle). Boarding pass Sep 13, Sail & Sign statement Sep 27.",
+  "Companions": [],
+  "Highlights": ["Transatlantic"],
+  "DaysUnaccounted": 0
+}

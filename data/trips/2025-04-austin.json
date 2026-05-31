@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-04-austin",
+  "Type": "Flight",
+  "Title": "Austin, TX Trip",
+  "StartDate": "2025-04-10",
+  "EndDate": "2025-04-18",
+  "StartCity": "Unknown",
+  "EndCity": "Myrtle Beach",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Flight",
+  "Carrier": "Delta/Amex Travel",
+  "BookingRef": "HX8PZN",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Flight to Austin Apr 10, return AUS → MYR Apr 18 (departure 6:30 AM).",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

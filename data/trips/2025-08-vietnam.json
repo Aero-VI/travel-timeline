@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-08-vietnam",
+  "Type": "Flight",
+  "Title": "Vietnam - Ho Chi Minh City",
+  "StartDate": "2025-08-23",
+  "EndDate": "2025-08-27",
+  "StartCity": "Ho Chi Minh City",
+  "EndCity": "Seoul",
+  "StartCountryCode": "VN",
+  "EndCountryCode": "KR",
+  "TransportMode": "Flight",
+  "Carrier": "Vietnam Airlines",
+  "BookingRef": "E8GIR9",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "SGN → ICN via Vietnam Airlines. Boarding pass issued Aug 27.",
+  "Companions": [],
+  "Highlights": ["Saigon"],
+  "DaysUnaccounted": 0
+}

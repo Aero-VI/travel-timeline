@@ -1,0 +1,22 @@
+[
+  {
+    "TripId": "flight-den-bhx-feb-2025",
+    "Type": "Flight",
+    "Title": "Flight Denver to Birmingham UK",
+    "StartDate": "2025-02-27",
+    "EndDate": "2025-02-27",
+    "StartCity": "Denver",
+    "EndCity": "Birmingham",
+    "StartCountryCode": "US",
+    "EndCountryCode": "GB",
+    "TransportMode": "Flight",
+    "Carrier": "",
+    "BookingRef": "GXLQ49",
+    "Verified": true,
+    "Confidence": "high",
+    "Notes": "DEN to BHX.",
+    "Companions": [],
+    "Highlights": [],
+    "DaysUnaccounted": 0
+  }
+]

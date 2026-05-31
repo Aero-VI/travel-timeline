@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-05-home",
+  "Type": "Home",
+  "Title": "Home - Myrtle Beach",
+  "StartDate": "2026-05-04",
+  "EndDate": "2026-06-04",
+  "StartCity": "Myrtle Beach",
+  "EndCity": "Myrtle Beach",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "medium",
+  "Notes": "Thomas graduating in May. Family Avatar movie night planned. Home period before Copenhagen flight.",
+  "Companions": ["Thomas Halka"],
+  "Highlights": ["Thomas graduation", "Family time"],
+  "DaysUnaccounted": 0
+}

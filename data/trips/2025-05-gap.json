@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-05-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Valor to Copenhagen",
+  "StartDate": "2025-05-11",
+  "EndDate": "2025-06-04",
+  "StartCity": "Unknown",
+  "EndCity": "Copenhagen",
+  "StartCountryCode": "US",
+  "EndCountryCode": "DK",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "After transatlantic arrival (likely UK/Europe). May have stayed in Europe or returned home.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 25
+}

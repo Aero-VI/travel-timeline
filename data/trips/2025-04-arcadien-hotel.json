@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-04-arcadien-hotel",
+  "Type": "Hotel",
+  "Title": "Arcadien Hotel & Spa",
+  "StartDate": "2025-04-05",
+  "EndDate": "2025-04-07",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "FR",
+  "EndCountryCode": "FR",
+  "TransportMode": "Unknown",
+  "Carrier": "Hotels.com",
+  "BookingRef": "72062264522365",
+  "Verified": true,
+  "Confidence": "medium",
+  "Notes": "Likely France/Europe near UK trip. Hotels.com booking.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

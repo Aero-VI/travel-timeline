@@ -1,0 +1,20 @@
+{
+  "TripId": "2024-04-carnival-spirit-2",
+  "Type": "Cruise",
+  "Title": "Carnival Spirit - Back-to-Back",
+  "StartDate": "2024-04-23",
+  "EndDate": "2024-05-07",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "W5T1N7",
+  "Verified": true,
+  "Confidence": "medium",
+  "Notes": "14 days. Stateroom 1170 (changed from 1157). Back-to-back with T7G1G3.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

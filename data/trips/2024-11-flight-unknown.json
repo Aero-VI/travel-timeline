@@ -1,0 +1,20 @@
+{
+  "TripId": "2024-11-flight-unknown",
+  "Type": "Flight",
+  "Title": "Flight: Unknown Route",
+  "StartDate": "2024-11-12",
+  "EndDate": "2024-11-12",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Flight",
+  "Carrier": "Delta",
+  "BookingRef": "JMNXE3",
+  "Verified": true,
+  "Confidence": "low",
+  "Notes": "Receipt only, route not in snippets. Passenger: Nicholas Brian Halka.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

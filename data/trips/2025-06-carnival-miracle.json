@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-06-carnival-miracle",
+  "Type": "Cruise",
+  "Title": "Carnival Miracle",
+  "StartDate": "2025-06-29",
+  "EndDate": "2025-07-10",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "FN77C3",
+  "Verified": true,
+  "Confidence": "medium",
+  "Notes": "Casino survey Jul 22. Stockperks OBC attempt unsuccessful Jun 20.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

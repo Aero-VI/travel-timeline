@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-07-flight-to-seoul",
+  "Type": "Flight",
+  "Title": "Flight to Seoul",
+  "StartDate": "2025-07-12",
+  "EndDate": "2025-07-13",
+  "StartCity": "Unknown",
+  "EndCity": "Seoul",
+  "StartCountryCode": "US",
+  "EndCountryCode": "KR",
+  "TransportMode": "Flight",
+  "Carrier": "China Eastern",
+  "BookingRef": "",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Economy. Booked Jun 20 via Capital One.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

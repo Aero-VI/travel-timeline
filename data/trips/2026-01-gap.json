@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-01-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Start of 2026 to Brisbane Flight",
+  "StartDate": "2026-01-01",
+  "EndDate": "2026-01-13",
+  "StartCity": "Myrtle Beach",
+  "EndCity": "Myrtle Beach",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Likely home before Australia trip.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 13
+}

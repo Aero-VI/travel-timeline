@@ -1,0 +1,20 @@
+{
+  "TripId": "2022-01-home-pre",
+  "Type": "Home",
+  "Title": "Home - Myrtle Beach (Pre-Timeline)",
+  "StartDate": "2022-02-01",
+  "EndDate": "2022-02-18",
+  "StartCity": "Myrtle Beach",
+  "EndCity": "Myrtle Beach",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Assumed home base before first recorded trip.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

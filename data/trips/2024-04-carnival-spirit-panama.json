@@ -1,0 +1,20 @@
+{
+  "TripId": "2024-04-carnival-spirit-panama",
+  "Type": "Cruise",
+  "Title": "Carnival Spirit - Panama Canal",
+  "StartDate": "2024-04-07",
+  "EndDate": "2024-04-23",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "T7G1G3",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Stateroom 1170. 16-day Panama Canal cruise.",
+  "Companions": [],
+  "Highlights": ["Panama Canal"],
+  "DaysUnaccounted": 0
+}

@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-10-mardi-gras",
+  "Type": "Cruise",
+  "Title": "Mardi Gras",
+  "StartDate": "2026-10-17",
+  "EndDate": "2026-10-24",
+  "StartCity": "Port Canaveral",
+  "EndCity": "Port Canaveral",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "QN82J3",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Booked Jan 19, 2026.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

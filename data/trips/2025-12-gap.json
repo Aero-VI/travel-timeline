@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-12-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Austin to End of 2025",
+  "StartDate": "2025-12-13",
+  "EndDate": "2025-12-31",
+  "StartCity": "Austin",
+  "EndCity": "Myrtle Beach",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Holidays. Likely home in Myrtle Beach.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 19
+}

@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-08-manila",
+  "Type": "Hotel",
+  "Title": "Manila, Philippines",
+  "StartDate": "2025-08-04",
+  "EndDate": "2025-08-23",
+  "StartCity": "Tokyo",
+  "EndCity": "Ho Chi Minh City",
+  "StartCountryCode": "JP",
+  "EndCountryCode": "VN",
+  "TransportMode": "Flight",
+  "Carrier": "ZIPAIR / Agoda",
+  "BookingRef": "3E49EG",
+  "Verified": true,
+  "Confidence": "medium",
+  "Notes": "Multiple hotels: Toyoko Inn Narita (transit Aug 4), mySTAY Hotel BGC, Canyon Hotels, Savoy Hotel Manila, Infinity Pool Signature, Heritage Hotel. Also Huazhu Hotel (likely Vietnam). Flight via ZIPAIR/Capital One Travel.",
+  "Companions": [],
+  "Highlights": ["Manila", "BGC", "Philippines"],
+  "DaysUnaccounted": 0
+}

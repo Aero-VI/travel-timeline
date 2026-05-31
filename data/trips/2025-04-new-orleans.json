@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-04-new-orleans",
+  "Type": "Flight",
+  "Title": "Flight: Myrtle Beach to New Orleans",
+  "StartDate": "2025-04-22",
+  "EndDate": "2025-04-22",
+  "StartCity": "Myrtle Beach",
+  "EndCity": "New Orleans",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Flight",
+  "Carrier": "Delta",
+  "BookingRef": "GC4DC5",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Confirmed via Amex Travel.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

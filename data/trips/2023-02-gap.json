@@ -1,0 +1,20 @@
+{
+  "TripId": "2023-02-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Jan-Jun 2023",
+  "StartDate": "2023-01-14",
+  "EndDate": "2023-06-25",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Likely St. Thomas / Myrtle Beach. No email evidence for this period.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 163
+}

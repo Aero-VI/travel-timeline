@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-11-mardi-gras-3",
+  "Type": "Cruise",
+  "Title": "Mardi Gras - Celebration Key (B2B2B)",
+  "StartDate": "2025-11-08",
+  "EndDate": "2025-11-15",
+  "StartCity": "Port Canaveral",
+  "EndCity": "Port Canaveral",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "LK81N1",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Dining email confirmed. Cancellation notice Nov 12 (flagged suspicious by Gmail). Casino survey Nov 19-26.",
+  "Companions": [],
+  "Highlights": ["Celebration Key"],
+  "DaysUnaccounted": 0
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "TripId": "carnival-firenze-mexico-2025",
+    "Type": "Cruise",
+    "Title": "Carnival Firenze - Mexican Riviera (5 days)",
+    "StartDate": "2025-01-18",
+    "EndDate": "2025-01-23",
+    "StartCity": "Long Beach",
+    "EndCity": "Long Beach",
+    "StartCountryCode": "US",
+    "EndCountryCode": "US",
+    "TransportMode": "Cruise",
+    "Carrier": "Carnival Cruise Line",
+    "BookingRef": "W0WF04",
+    "Verified": true,
+    "Confidence": "high",
+    "Notes": "5-day Mexican Riviera cruise.",
+    "Companions": [],
+    "Highlights": [],
+    "DaysUnaccounted": 0
+  }
+]

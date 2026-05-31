@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-08-gap-korea",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Vietnam to Transatlantic",
+  "StartDate": "2025-08-28",
+  "EndDate": "2025-09-12",
+  "StartCity": "Seoul",
+  "EndCity": "Unknown",
+  "StartCountryCode": "KR",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "After SGN→ICN flight. May have stayed in Korea or returned to US for transatlantic.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 16
+}

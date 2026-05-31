@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-05-flight-hnd-myr",
+  "Type": "Flight",
+  "Title": "Flight: Tokyo to Myrtle Beach",
+  "StartDate": "2026-05-03",
+  "EndDate": "2026-05-04",
+  "StartCity": "Tokyo",
+  "EndCity": "Myrtle Beach",
+  "StartCountryCode": "JP",
+  "EndCountryCode": "US",
+  "TransportMode": "Flight",
+  "Carrier": "Delta",
+  "BookingRef": "H7F57O",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Trip details Apr 30. Check-in May 2.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

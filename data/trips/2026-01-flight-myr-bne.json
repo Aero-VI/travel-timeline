@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-01-flight-myr-bne",
+  "Type": "Flight",
+  "Title": "Flight: Myrtle Beach to Brisbane",
+  "StartDate": "2026-01-14",
+  "EndDate": "2026-01-16",
+  "StartCity": "Myrtle Beach",
+  "EndCity": "Brisbane",
+  "StartCountryCode": "US",
+  "EndCountryCode": "AU",
+  "TransportMode": "Flight",
+  "Carrier": "Delta",
+  "BookingRef": "GLA5FD",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Companion: Genna Grace Gubitosi. Pre-ordered menu Jan 8, Jan 13.",
+  "Companions": ["Genna Grace Gubitosi"],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

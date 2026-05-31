@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-09-carnival-miracle-2",
+  "Type": "Cruise",
+  "Title": "Carnival Miracle - Mediterranean",
+  "StartDate": "2025-09-27",
+  "EndDate": "2025-10-06",
+  "StartCity": "Barcelona",
+  "EndCity": "Athens",
+  "StartCountryCode": "ES",
+  "EndCountryCode": "GR",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "KX10B3",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Last-minute booking Sep 21. Dining confirmed Sep 22. Casino survey Oct 17.",
+  "Companions": [],
+  "Highlights": ["Mediterranean", "Barcelona"],
+  "DaysUnaccounted": 0
+}

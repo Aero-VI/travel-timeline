@@ -1,0 +1,20 @@
+{
+  "TripId": "2022-03-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Sunshine to St. Thomas",
+  "StartDate": "2022-02-27",
+  "EndDate": "2022-05-09",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "No email evidence for this period. Likely home in Myrtle Beach.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 72
+}

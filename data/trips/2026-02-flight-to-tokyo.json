@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-02-flight-to-tokyo",
+  "Type": "Flight",
+  "Title": "Flight to Tokyo (via Honolulu)",
+  "StartDate": "2026-02-21",
+  "EndDate": "2026-03-02",
+  "StartCity": "Unknown",
+  "EndCity": "Tokyo",
+  "StartCountryCode": "US",
+  "EndCountryCode": "JP",
+  "TransportMode": "Flight",
+  "Carrier": "ZIPAIR / Delta",
+  "BookingRef": "S136R3",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "ZIPAIR flight Feb 21, then Delta HNL→HND Mar 2 (HHUQWS). Shoreline Hotel Feb 22 (Agoda 1701217069). In-flight sales receipt Feb 22.",
+  "Companions": [],
+  "Highlights": ["Honolulu", "Tokyo"],
+  "DaysUnaccounted": 0
+}

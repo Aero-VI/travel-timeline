@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-02-flight-syd-bne",
+  "Type": "Flight",
+  "Title": "Flight: Sydney to Brisbane",
+  "StartDate": "2026-02-01",
+  "EndDate": "2026-02-01",
+  "StartCity": "Sydney",
+  "EndCity": "Brisbane",
+  "StartCountryCode": "AU",
+  "EndCountryCode": "AU",
+  "TransportMode": "Flight",
+  "Carrier": "Virgin Australia",
+  "BookingRef": "OLQYFI",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Flight VA0999. Departure 10:10 PM (delayed from 9:30 PM). Arrival 10:40 PM.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

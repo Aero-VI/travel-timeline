@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-01-flight-bne-syd",
+  "Type": "Flight",
+  "Title": "Flight: Brisbane to Sydney",
+  "StartDate": "2026-01-26",
+  "EndDate": "2026-01-26",
+  "StartCity": "Brisbane",
+  "EndCity": "Sydney",
+  "StartCountryCode": "AU",
+  "EndCountryCode": "AU",
+  "TransportMode": "Flight",
+  "Carrier": "Trip.com",
+  "BookingRef": "",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Flight change confirmed same day.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

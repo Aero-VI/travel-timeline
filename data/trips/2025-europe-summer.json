@@ -1,0 +1,42 @@
+[
+  {
+    "TripId": "copenhagen-hotel-jun-2025",
+    "Type": "Hotel",
+    "Title": "Copenhagen Hotel",
+    "StartDate": "2025-06-05",
+    "EndDate": "2025-06-07",
+    "StartCity": "Copenhagen",
+    "EndCity": "Copenhagen",
+    "StartCountryCode": "DK",
+    "EndCountryCode": "DK",
+    "TransportMode": "",
+    "Carrier": "",
+    "BookingRef": "",
+    "Verified": true,
+    "Confidence": "high",
+    "Notes": "Hotel stay in Copenhagen.",
+    "Companions": [],
+    "Highlights": [],
+    "DaysUnaccounted": 0
+  },
+  {
+    "TripId": "carnival-miracle-jun-2025",
+    "Type": "Cruise",
+    "Title": "Carnival Miracle",
+    "StartDate": "2025-06-29",
+    "EndDate": "2025-07-06",
+    "StartCity": "Barcelona",
+    "EndCity": "Barcelona",
+    "StartCountryCode": "ES",
+    "EndCountryCode": "ES",
+    "TransportMode": "Cruise",
+    "Carrier": "Carnival Cruise Line",
+    "BookingRef": "FN77C3",
+    "Verified": true,
+    "Confidence": "high",
+    "Notes": "Mediterranean cruise. End date estimated (7-day).",
+    "Companions": [],
+    "Highlights": [],
+    "DaysUnaccounted": 0
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "TripId": "2024-05-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Spirit to Tokyo Flight",
+  "StartDate": "2024-05-08",
+  "EndDate": "2024-09-27",
+  "StartCity": "Unknown",
+  "EndCity": "St. Thomas",
+  "StartCountryCode": "US",
+  "EndCountryCode": "VI",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Likely home in St. Thomas area (flight to Tokyo departs STT Sep 28).",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 143
+}
