@@ -3,18 +3,24 @@
   "Type": "Hotel",
   "Title": "Japan Tour - Himeji, Kyoto, Noshiro, Akita",
   "StartDate": "2026-04-03",
-  "EndDate": "2026-05-03",
+  "EndDate": "2026-05-02",
   "StartCity": "Himeji",
   "EndCity": "Tokyo",
   "StartCountryCode": "JP",
   "EndCountryCode": "JP",
   "TransportMode": "Train",
-  "Carrier": "APA Hotels / Route-Inn / Agoda / Booking.com",
+  "Carrier": "APA Hotels / Route-Inn",
   "BookingRef": "",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "APA Hotel Himeji (987175882), APA Hotel Kyoto-Gion (987746578), Hotel Route-Inn Noshiro (Booking.com), APA Hotel Akita (1718353536). Cherry blossom season. APA Hotel Shibuya (1719246528), APA Hotel Kyoto-Eki (1719240397), APA Hotel Akihabara (993071086) booked Apr 18.",
+  "Notes": "APA Himeji, APA Kyoto-Gion, Route-Inn Noshiro, APA Akita. Cherry blossom season.",
   "Companions": [],
-  "Highlights": ["Himeji", "Kyoto", "Noshiro", "Akita", "Cherry Blossoms"],
+  "Highlights": [
+    "Himeji",
+    "Kyoto",
+    "Noshiro",
+    "Akita",
+    "Cherry Blossoms"
+  ],
   "DaysUnaccounted": 0
 }

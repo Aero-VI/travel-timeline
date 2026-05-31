@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-11-gap-mardi",
+  "Type": "Unknown",
+  "Title": "Gap: Between Mardi Gras B2B",
+  "StartDate": "2025-11-07",
+  "EndDate": "2025-11-07",
+  "StartCity": "Port Canaveral",
+  "EndCity": "Port Canaveral",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "medium",
+  "Notes": "One day between B2B sailings.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 1
+}

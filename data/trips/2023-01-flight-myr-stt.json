@@ -1,0 +1,20 @@
+{
+  "TripId": "2023-01-flight-myr-stt",
+  "Type": "Flight",
+  "Title": "Flight: Myrtle Beach to St. Thomas",
+  "StartDate": "2023-01-12",
+  "EndDate": "2023-01-13",
+  "StartCity": "Myrtle Beach",
+  "EndCity": "St. Thomas",
+  "StartCountryCode": "US",
+  "EndCountryCode": "VI",
+  "TransportMode": "Flight",
+  "Carrier": "Delta",
+  "BookingRef": "",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

@@ -1,0 +1,20 @@
+{
+  "TripId": "2022-06-gap",
+  "Type": "Unknown",
+  "Title": "Gap: Post-St. Thomas to End of 2022",
+  "StartDate": "2022-05-18",
+  "EndDate": "2022-12-31",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "No email evidence. Likely home in Myrtle Beach area.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 228
+}

@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-09-gap-post-alaska",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Alaska to Mardi Gras",
+  "StartDate": "2026-09-27",
+  "EndDate": "2026-10-16",
+  "StartCity": "Unknown",
+  "EndCity": "Port Canaveral",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Between Alaska cruise and Mardi Gras.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 20
+}

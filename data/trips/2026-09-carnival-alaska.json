@@ -13,8 +13,10 @@
   "BookingRef": "JP91J2",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "9 days. Journeys - Alaska. Itinerary change notice Mar 23, 2026.",
+  "Notes": "9 days. Journeys - Alaska.",
   "Companions": [],
-  "Highlights": ["Alaska"],
+  "Highlights": [
+    "Alaska"
+  ],
   "DaysUnaccounted": 0
 }

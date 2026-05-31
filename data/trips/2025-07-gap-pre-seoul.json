@@ -1,9 +1,9 @@
 {
-  "TripId": "2022-05-gap",
+  "TripId": "2025-07-gap-pre-seoul",
   "Type": "Unknown",
-  "Title": "Gap: Post-St. Thomas to End of 2022",
-  "StartDate": "2022-05-18",
-  "EndDate": "2022-12-31",
+  "Title": "Gap: Post-Miracle to Seoul",
+  "StartDate": "2025-07-11",
+  "EndDate": "2025-07-11",
   "StartCity": "Unknown",
   "EndCity": "Unknown",
   "StartCountryCode": "US",
@@ -13,8 +13,8 @@
   "BookingRef": "",
   "Verified": false,
   "Confidence": "low",
-  "Notes": "No email evidence. Likely home in Myrtle Beach area.",
+  "Notes": "Brief gap before Seoul flight.",
   "Companions": [],
   "Highlights": [],
-  "DaysUnaccounted": 228
+  "DaysUnaccounted": 1
 }

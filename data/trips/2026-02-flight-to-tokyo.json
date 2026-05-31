@@ -13,8 +13,11 @@
   "BookingRef": "S136R3",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "ZIPAIR flight Feb 21, then Delta HNL→HND Mar 2 (HHUQWS). Shoreline Hotel Feb 22 (Agoda 1701217069). In-flight sales receipt Feb 22.",
+  "Notes": "ZIPAIR Feb 21, Delta HNL->HND Mar 2 (HHUQWS). Shoreline Hotel Feb 22.",
   "Companions": [],
-  "Highlights": ["Honolulu", "Tokyo"],
+  "Highlights": [
+    "Honolulu",
+    "Tokyo"
+  ],
   "DaysUnaccounted": 0
 }

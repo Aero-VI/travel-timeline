@@ -13,8 +13,10 @@
   "BookingRef": "CM47Q6",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "Journeys cruise (Transatlantic). Stockperks $100 OBC applied. Casino player bank balance request Aug 30.",
+  "Notes": "Journeys cruise (Transatlantic). Stockperks $100 OBC applied.",
   "Companions": [],
-  "Highlights": ["Transatlantic crossing"],
+  "Highlights": [
+    "Transatlantic crossing"
+  ],
   "DaysUnaccounted": 0
 }

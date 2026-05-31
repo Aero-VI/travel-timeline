@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-04-gap-myr",
+  "Type": "Unknown",
+  "Title": "Gap: Home before New Orleans",
+  "StartDate": "2025-04-19",
+  "EndDate": "2025-04-21",
+  "StartCity": "Myrtle Beach",
+  "EndCity": "Myrtle Beach",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "medium",
+  "Notes": "Brief home period before New Orleans flight.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 3
+}

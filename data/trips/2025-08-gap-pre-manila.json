@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-08-gap-pre-manila",
+  "Type": "Unknown",
+  "Title": "Gap: Tokyo to Manila",
+  "StartDate": "2025-08-01",
+  "EndDate": "2025-08-03",
+  "StartCity": "Tokyo",
+  "EndCity": "Tokyo",
+  "StartCountryCode": "JP",
+  "EndCountryCode": "JP",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Brief gap before ZIPAIR flight.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 3
+}

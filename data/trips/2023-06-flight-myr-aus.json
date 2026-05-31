@@ -1,0 +1,20 @@
+{
+  "TripId": "2023-06-flight-myr-aus",
+  "Type": "Flight",
+  "Title": "Flight: Myrtle Beach to Austin",
+  "StartDate": "2023-06-26",
+  "EndDate": "2023-06-27",
+  "StartCity": "Myrtle Beach",
+  "EndCity": "Austin",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Flight",
+  "Carrier": "Delta",
+  "BookingRef": "",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

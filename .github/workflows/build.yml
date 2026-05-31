@@ -1,0 +1,35 @@
+name: Build data.json
+
+on:
+  push:
+    paths:
+      - 'data/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Build data.json
+        run: node build.js
+      
+      - name: Commit updated data.json
+        run: |
+          git config user.name "Azula"
+          git config user.email "azula@aero.vi"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "No changes to data.json"
+          else
+            git commit -m "chore: rebuild data.json"
+            git push
+          fi

@@ -1,0 +1,23 @@
+{
+  "TripId": "2023-09-carnival-magic",
+  "Type": "Cruise",
+  "Title": "Carnival Magic - Bermuda",
+  "StartDate": "2023-09-10",
+  "EndDate": "2023-09-17",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "T3V1Q3",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Stateroom 11274. VIFP #5584576119. Shore excursion: Best of Bermuda Island Tour.",
+  "Companions": [],
+  "Highlights": [
+    "Bermuda",
+    "Best of Bermuda Island Tour"
+  ],
+  "DaysUnaccounted": 0
+}

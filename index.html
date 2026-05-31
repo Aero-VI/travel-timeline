@@ -1,465 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Timeline - Verification Dashboard</title>
-    <style>
-        :root {
-            --bg: #0d1117;
-            --surface: #161b22;
-            --border: #30363d;
-            --text: #e6edf3;
-            --text-muted: #8b949e;
-            --cruise: #388bfd;
-            --flight: #a371f7;
-            --hotel: #d29922;
-            --home: #3fb950;
-            --transit: #768390;
-            --unknown: #d29922;
-            --amber: #d29922;
-            --amber-bg: rgba(210, 153, 34, 0.1);
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Timeline - Data Review</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --cruise: #388bfd;
+  --flight: #a371f7;
+  --hotel: #d29922;
+  --home: #3fb950;
+  --transit: #79c0ff;
+  --unknown: #d29922;
+  --unverified: #f85149;
+}
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.5;
-            min-height: 100vh;
-        }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  padding: 20px;
+}
 
-        .header {
-            background: var(--surface);
-            border-bottom: 1px solid var(--border);
-            padding: 1rem 2rem;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
+.header {
+  max-width: 1400px;
+  margin: 0 auto 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
 
-        .header-top {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 1rem;
-        }
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
 
-        .header h1 {
-            font-size: 1.5rem;
-            font-weight: 600;
-        }
+.header .meta {
+  color: var(--text-muted);
+  font-size: 14px;
+}
 
-        .header-links {
-            display: flex;
-            gap: 1rem;
-            align-items: center;
-        }
+.header a {
+  color: var(--cruise);
+  text-decoration: none;
+}
 
-        .header-links a {
-            color: var(--cruise);
-            text-decoration: none;
-            font-size: 0.875rem;
-        }
+.controls {
+  max-width: 1400px;
+  margin: 0 auto 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
-        .header-links a:hover { text-decoration: underline; }
+.controls input, .controls select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
 
-        .filters {
-            display: flex;
-            gap: 0.75rem;
-            flex-wrap: wrap;
-            align-items: center;
-        }
+.controls input { flex: 1; min-width: 200px; }
+.controls select { min-width: 120px; }
 
-        .search-box {
-            background: var(--bg);
-            border: 1px solid var(--border);
-            color: var(--text);
-            padding: 0.4rem 0.75rem;
-            border-radius: 6px;
-            font-size: 0.875rem;
-            width: 220px;
-        }
+.stats {
+  max-width: 1400px;
+  margin: 0 auto 20px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
 
-        .search-box:focus { outline: none; border-color: var(--cruise); }
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-width: 120px;
+}
 
-        select {
-            background: var(--bg);
-            border: 1px solid var(--border);
-            color: var(--text);
-            padding: 0.4rem 0.75rem;
-            border-radius: 6px;
-            font-size: 0.875rem;
-            cursor: pointer;
-        }
+.stat-card .value { font-size: 24px; font-weight: 700; }
+.stat-card .label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; }
 
-        select:focus { outline: none; border-color: var(--cruise); }
+.timeline {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
-        .stats {
-            background: var(--surface);
-            border-bottom: 1px solid var(--border);
-            padding: 0.75rem 2rem;
-            display: flex;
-            gap: 2rem;
-            font-size: 0.875rem;
-            color: var(--text-muted);
-        }
+.trip-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: 6px 1fr auto;
+  gap: 16px;
+  align-items: start;
+  transition: border-color 0.2s;
+}
 
-        .stat-item strong { color: var(--text); }
+.trip-card:hover { border-color: var(--text-muted); }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1.5rem 2rem;
-        }
+.trip-card.unverified { border-left: 3px solid var(--unverified); }
+.trip-card.low-confidence { background: #1c1c0f; }
 
-        .trip-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 1rem 1.25rem;
-            margin-bottom: 0.75rem;
-            display: grid;
-            grid-template-columns: 4px 1fr auto;
-            gap: 1rem;
-            align-items: center;
-            transition: border-color 0.2s;
-        }
+.type-indicator {
+  width: 6px;
+  border-radius: 3px;
+  align-self: stretch;
+  min-height: 40px;
+}
 
-        .trip-card:hover { border-color: var(--text-muted); }
+.type-Cruise .type-indicator { background: var(--cruise); }
+.type-Flight .type-indicator { background: var(--flight); }
+.type-Hotel .type-indicator { background: var(--hotel); }
+.type-Home .type-indicator { background: var(--home); }
+.type-Transit .type-indicator { background: var(--transit); }
+.type-Unknown .type-indicator { background: var(--unknown); opacity: 0.5; }
 
-        .trip-card.low-confidence {
-            border-color: var(--amber);
-            background: var(--amber-bg);
-        }
+.trip-main { flex: 1; }
 
-        .trip-card.unverified {
-            border-left: 4px solid var(--amber);
-        }
+.trip-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
-        .type-bar {
-            width: 4px;
-            height: 100%;
-            min-height: 40px;
-            border-radius: 2px;
-        }
+.trip-title .badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
 
-        .type-bar.cruise { background: var(--cruise); }
-        .type-bar.flight { background: var(--flight); }
-        .type-bar.hotel { background: var(--hotel); }
-        .type-bar.home { background: var(--home); }
-        .type-bar.transit { background: var(--transit); }
-        .type-bar.unknown { background: var(--unknown); }
+.badge-cruise { background: var(--cruise); color: #fff; }
+.badge-flight { background: var(--flight); color: #fff; }
+.badge-hotel { background: var(--hotel); color: #000; }
+.badge-home { background: var(--home); color: #000; }
+.badge-transit { background: var(--transit); color: #000; }
+.badge-unknown { background: var(--unknown); color: #000; }
+.badge-unverified { background: var(--unverified); color: #fff; }
 
-        .trip-info { min-width: 0; }
+.trip-dates {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
 
-        .trip-title {
-            font-weight: 600;
-            font-size: 1rem;
-            margin-bottom: 0.25rem;
-        }
+.trip-details {
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 4px 16px;
+}
 
-        .trip-dates {
-            color: var(--text-muted);
-            font-size: 0.875rem;
-            margin-bottom: 0.25rem;
-        }
+.trip-details .field { display: flex; gap: 6px; }
+.trip-details .field-label { color: var(--text-muted); white-space: nowrap; }
+.trip-details .field-value { color: var(--text); }
 
-        .trip-route {
-            font-size: 0.875rem;
-            color: var(--text-muted);
-        }
+.trip-notes {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 8px;
+  font-style: italic;
+}
 
-        .trip-route .country-code {
-            font-weight: 600;
-            color: var(--text);
-        }
+.trip-meta {
+  text-align: right;
+  white-space: nowrap;
+}
 
-        .trip-meta {
-            text-align: right;
-            white-space: nowrap;
-        }
+.trip-meta .booking-ref {
+  font-family: 'SF Mono', Monaco, monospace;
+  font-size: 12px;
+  color: var(--cruise);
+  background: rgba(56, 139, 253, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
 
-        .trip-meta .badge {
-            display: inline-block;
-            padding: 0.2rem 0.5rem;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            font-weight: 500;
-            margin-bottom: 0.25rem;
-        }
+.trip-meta .confidence {
+  font-size: 11px;
+  margin-top: 4px;
+}
 
-        .badge.cruise { background: rgba(56, 139, 253, 0.2); color: var(--cruise); }
-        .badge.flight { background: rgba(163, 113, 247, 0.2); color: var(--flight); }
-        .badge.hotel { background: rgba(210, 153, 34, 0.2); color: var(--hotel); }
-        .badge.home { background: rgba(63, 185, 80, 0.2); color: var(--home); }
-        .badge.transit { background: rgba(118, 131, 144, 0.2); color: var(--transit); }
-        .badge.unknown { background: rgba(210, 153, 34, 0.2); color: var(--unknown); }
+.confidence-high { color: var(--home); }
+.confidence-medium { color: var(--unknown); }
+.confidence-low { color: var(--unverified); }
 
-        .badge.verified { background: rgba(63, 185, 80, 0.15); color: var(--home); }
-        .badge.unverified { background: rgba(210, 153, 34, 0.15); color: var(--amber); }
-        .badge.confidence-low { background: rgba(210, 153, 34, 0.3); color: var(--amber); }
-        .badge.confidence-medium { background: rgba(210, 153, 34, 0.15); color: var(--amber); }
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+}
 
-        .trip-booking {
-            font-family: monospace;
-            font-size: 0.75rem;
-            color: var(--text-muted);
-        }
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+}
 
-        .trip-notes {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            margin-top: 0.35rem;
-            font-style: italic;
-        }
-
-        .year-divider {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: var(--text);
-            margin: 1.5rem 0 0.75rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .gap-warning {
-            background: rgba(210, 153, 34, 0.08);
-            border: 1px dashed var(--amber);
-            border-radius: 6px;
-            padding: 0.5rem 1rem;
-            margin-bottom: 0.75rem;
-            font-size: 0.825rem;
-            color: var(--amber);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .gap-warning::before { content: "⚠️"; }
-
-        .no-results {
-            text-align: center;
-            padding: 3rem;
-            color: var(--text-muted);
-            font-size: 1.1rem;
-        }
-
-        @media (max-width: 768px) {
-            .header { padding: 1rem; }
-            .container { padding: 1rem; }
-            .filters { gap: 0.5rem; }
-            .search-box { width: 100%; }
-            .trip-card { grid-template-columns: 4px 1fr; }
-            .trip-meta { grid-column: 2; text-align: left; }
-            .stats { padding: 0.75rem 1rem; gap: 1rem; flex-wrap: wrap; }
-        }
-    </style>
+@media (max-width: 768px) {
+  .trip-card { grid-template-columns: 4px 1fr; }
+  .trip-meta { display: none; }
+  .trip-details { grid-template-columns: 1fr; }
+}
+</style>
 </head>
 <body>
-    <div class="header">
-        <div class="header-top">
-            <h1>🗺️ Travel Timeline - Verification Dashboard</h1>
-            <div class="header-links">
-                <a href="/data.json" target="_blank">📄 Raw JSON</a>
-                <span style="color: var(--text-muted); font-size: 0.8rem;" id="last-updated"></span>
-            </div>
+
+<div class="header">
+  <div>
+    <h1>🌍 Travel Timeline - Data Review</h1>
+    <div class="meta">Verification dashboard for Gmail-scraped booking data</div>
+  </div>
+  <div>
+    <a href="data.json" target="_blank">📥 Raw JSON (data.json)</a>
+  </div>
+</div>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search trips, cities, carriers...">
+  <select id="filter-year">
+    <option value="">All Years</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+    <option value="2026">2026</option>
+  </select>
+  <select id="filter-type">
+    <option value="">All Types</option>
+    <option value="Cruise">Cruise</option>
+    <option value="Flight">Flight</option>
+    <option value="Hotel">Hotel</option>
+    <option value="Home">Home</option>
+    <option value="Transit">Transit</option>
+    <option value="Unknown">Unknown</option>
+  </select>
+  <select id="filter-country">
+    <option value="">All Countries</option>
+  </select>
+  <select id="filter-verified">
+    <option value="">All</option>
+    <option value="true">Verified Only</option>
+    <option value="false">Unverified Only</option>
+  </select>
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div class="timeline" id="timeline">
+  <div class="loading">Loading travel data...</div>
+</div>
+
+<script>
+let allTrips = [];
+let allEvents = [];
+
+async function loadData() {
+  try {
+    const res = await fetch('data.json');
+    const data = await res.json();
+    allTrips = data.trips || [];
+    allEvents = data.events || [];
+    populateFilters();
+    renderStats();
+    renderTimeline();
+  } catch (e) {
+    document.getElementById('timeline').innerHTML = 
+      '<div class="empty-state">Failed to load data.json: ' + e.message + '</div>';
+  }
+}
+
+function populateFilters() {
+  const countries = new Set();
+  allTrips.forEach(t => {
+    if (t.StartCountryCode) countries.add(t.StartCountryCode);
+    if (t.EndCountryCode) countries.add(t.EndCountryCode);
+  });
+  const sel = document.getElementById('filter-country');
+  [...countries].sort().forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c;
+    sel.appendChild(opt);
+  });
+}
+
+function renderStats() {
+  const verified = allTrips.filter(t => t.Verified).length;
+  const unverified = allTrips.filter(t => !t.Verified).length;
+  const cruises = allTrips.filter(t => t.Type === 'Cruise').length;
+  const countries = new Set();
+  allTrips.forEach(t => {
+    if (t.StartCountryCode && t.Type !== 'Unknown' && t.Type !== 'Home') countries.add(t.StartCountryCode);
+    if (t.EndCountryCode && t.Type !== 'Unknown' && t.Type !== 'Home') countries.add(t.EndCountryCode);
+  });
+  const unaccounted = allTrips.reduce((s, t) => s + (t.DaysUnaccounted || 0), 0);
+
+  document.getElementById('stats').innerHTML = `
+    <div class="stat-card"><div class="value">${allTrips.length}</div><div class="label">Total Entries</div></div>
+    <div class="stat-card"><div class="value" style="color:var(--home)">${verified}</div><div class="label">Verified</div></div>
+    <div class="stat-card"><div class="value" style="color:var(--unverified)">${unverified}</div><div class="label">Unverified</div></div>
+    <div class="stat-card"><div class="value" style="color:var(--cruise)">${cruises}</div><div class="label">Cruises</div></div>
+    <div class="stat-card"><div class="value">${countries.size}</div><div class="label">Countries</div></div>
+    <div class="stat-card"><div class="value" style="color:var(--unknown)">${unaccounted}</div><div class="label">Days Unaccounted</div></div>
+  `;
+}
+
+function getFiltered() {
+  const search = document.getElementById('search').value.toLowerCase();
+  const year = document.getElementById('filter-year').value;
+  const type = document.getElementById('filter-type').value;
+  const country = document.getElementById('filter-country').value;
+  const verified = document.getElementById('filter-verified').value;
+
+  return allTrips.filter(t => {
+    if (year && !t.StartDate.startsWith(year)) return false;
+    if (type && t.Type !== type) return false;
+    if (country && t.StartCountryCode !== country && t.EndCountryCode !== country) return false;
+    if (verified === 'true' && !t.Verified) return false;
+    if (verified === 'false' && t.Verified) return false;
+    if (search) {
+      const hay = [t.Title, t.StartCity, t.EndCity, t.Carrier, t.BookingRef, t.Notes, t.TripId]
+        .join(' ').toLowerCase();
+      if (!hay.includes(search)) return false;
+    }
+    return true;
+  });
+}
+
+function renderTimeline() {
+  const trips = getFiltered();
+  if (trips.length === 0) {
+    document.getElementById('timeline').innerHTML = '<div class="empty-state">No trips match filters</div>';
+    return;
+  }
+
+  document.getElementById('timeline').innerHTML = trips.map(t => {
+    const badgeClass = 'badge-' + t.Type.toLowerCase();
+    const unverifiedClass = !t.Verified ? 'unverified' : '';
+    const lowConfClass = t.Confidence === 'low' ? 'low-confidence' : '';
+
+    const days = Math.ceil((new Date(t.EndDate) - new Date(t.StartDate)) / 86400000) + 1;
+
+    let details = '';
+    if (t.StartCity || t.EndCity) {
+      details += `<div class="field"><span class="field-label">Route:</span><span class="field-value">${t.StartCity || '?'} → ${t.EndCity || '?'}</span></div>`;
+    }
+    if (t.StartCountryCode || t.EndCountryCode) {
+      const route = t.StartCountryCode === t.EndCountryCode ? t.StartCountryCode : `${t.StartCountryCode || '?'} → ${t.EndCountryCode || '?'}`;
+      details += `<div class="field"><span class="field-label">Country:</span><span class="field-value">${route}</span></div>`;
+    }
+    if (t.Carrier) details += `<div class="field"><span class="field-label">Carrier:</span><span class="field-value">${t.Carrier}</span></div>`;
+    if (t.TransportMode && t.TransportMode !== 'Unknown') details += `<div class="field"><span class="field-label">Mode:</span><span class="field-value">${t.TransportMode}</span></div>`;
+    if (t.Companions && t.Companions.length) details += `<div class="field"><span class="field-label">With:</span><span class="field-value">${t.Companions.join(', ')}</span></div>`;
+    if (t.DaysUnaccounted > 0) details += `<div class="field"><span class="field-label">Unaccounted:</span><span class="field-value" style="color:var(--unverified)">${t.DaysUnaccounted} days</span></div>`;
+
+    return `
+      <div class="trip-card type-${t.Type} ${unverifiedClass} ${lowConfClass}">
+        <div class="type-indicator"></div>
+        <div class="trip-main">
+          <div class="trip-title">
+            ${t.Title}
+            <span class="badge ${badgeClass}">${t.Type}</span>
+            ${!t.Verified ? '<span class="badge badge-unverified">Unverified</span>' : ''}
+          </div>
+          <div class="trip-dates">${t.StartDate} to ${t.EndDate} (${days} day${days > 1 ? 's' : ''})</div>
+          <div class="trip-details">${details}</div>
+          ${t.Notes ? `<div class="trip-notes">${t.Notes}</div>` : ''}
         </div>
-        <div class="filters">
-            <input type="text" class="search-box" id="search" placeholder="Search trips, cities, booking refs...">
-            <select id="filter-year">
-                <option value="">All Years</option>
-            </select>
-            <select id="filter-type">
-                <option value="">All Types</option>
-                <option value="Cruise">Cruise</option>
-                <option value="Flight">Flight</option>
-                <option value="Hotel">Hotel</option>
-                <option value="Home">Home</option>
-                <option value="Transit">Transit</option>
-                <option value="Unknown">Unknown</option>
-            </select>
-            <select id="filter-country">
-                <option value="">All Countries</option>
-            </select>
-            <select id="filter-verified">
-                <option value="">All Status</option>
-                <option value="verified">Verified Only</option>
-                <option value="unverified">Unverified Only</option>
-                <option value="low">Low Confidence</option>
-            </select>
+        <div class="trip-meta">
+          ${t.BookingRef ? `<div class="booking-ref">${t.BookingRef}</div>` : ''}
+          <div class="confidence confidence-${t.Confidence}">${t.Confidence}</div>
         </div>
-    </div>
+      </div>
+    `;
+  }).join('');
+}
 
-    <div class="stats" id="stats"></div>
+// Event listeners
+document.getElementById('search').addEventListener('input', renderTimeline);
+document.getElementById('filter-year').addEventListener('change', renderTimeline);
+document.getElementById('filter-type').addEventListener('change', renderTimeline);
+document.getElementById('filter-country').addEventListener('change', renderTimeline);
+document.getElementById('filter-verified').addEventListener('change', renderTimeline);
 
-    <div class="container" id="timeline"></div>
-
-    <script>
-        let allTrips = [];
-
-        async function loadData() {
-            try {
-                const res = await fetch('/data.json');
-                const data = await res.json();
-                allTrips = data.trips || [];
-                populateFilters();
-                render();
-            } catch (e) {
-                document.getElementById('timeline').innerHTML =
-                    '<div class="no-results">Failed to load data.json. Build may not have run yet.</div>';
-                console.error(e);
-            }
-        }
-
-        function populateFilters() {
-            const years = [...new Set(allTrips.map(t => t.StartDate.substring(0, 4)))].sort();
-            const yearSelect = document.getElementById('filter-year');
-            years.forEach(y => {
-                const opt = document.createElement('option');
-                opt.value = y;
-                opt.textContent = y;
-                yearSelect.appendChild(opt);
-            });
-
-            const countries = [...new Set(allTrips.flatMap(t => [t.StartCountryCode, t.EndCountryCode]).filter(Boolean))].sort();
-            const countrySelect = document.getElementById('filter-country');
-            countries.forEach(c => {
-                const opt = document.createElement('option');
-                opt.value = c;
-                opt.textContent = c;
-                countrySelect.appendChild(opt);
-            });
-        }
-
-        function getFiltered() {
-            const search = document.getElementById('search').value.toLowerCase();
-            const year = document.getElementById('filter-year').value;
-            const type = document.getElementById('filter-type').value;
-            const country = document.getElementById('filter-country').value;
-            const verified = document.getElementById('filter-verified').value;
-
-            return allTrips.filter(t => {
-                if (year && !t.StartDate.startsWith(year)) return false;
-                if (type && t.Type !== type) return false;
-                if (country && t.StartCountryCode !== country && t.EndCountryCode !== country) return false;
-                if (verified === 'verified' && !t.Verified) return false;
-                if (verified === 'unverified' && t.Verified) return false;
-                if (verified === 'low' && t.Confidence !== 'low') return false;
-                if (search) {
-                    const haystack = [t.Title, t.StartCity, t.EndCity, t.BookingRef, t.Notes, t.Carrier, t.TripId].join(' ').toLowerCase();
-                    if (!haystack.includes(search)) return false;
-                }
-                return true;
-            });
-        }
-
-        function daysBetween(d1, d2) {
-            return Math.round((new Date(d2) - new Date(d1)) / (1000 * 60 * 60 * 24));
-        }
-
-        function formatDate(d) {
-            if (!d) return '?';
-            const date = new Date(d + 'T00:00:00');
-            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-        }
-
-        function render() {
-            const trips = getFiltered();
-            const container = document.getElementById('timeline');
-            const stats = document.getElementById('stats');
-
-            // Stats
-            const totalTrips = trips.length;
-            const unverified = trips.filter(t => !t.Verified).length;
-            const lowConf = trips.filter(t => t.Confidence === 'low').length;
-            const medConf = trips.filter(t => t.Confidence === 'medium').length;
-            const countries = new Set(trips.flatMap(t => [t.StartCountryCode, t.EndCountryCode]).filter(Boolean));
-            stats.innerHTML = `
-                <span class="stat-item"><strong>${totalTrips}</strong> trips</span>
-                <span class="stat-item"><strong>${countries.size}</strong> countries</span>
-                <span class="stat-item"><strong>${unverified}</strong> unverified</span>
-                <span class="stat-item"><strong>${medConf}</strong> medium confidence</span>
-                <span class="stat-item"><strong>${lowConf}</strong> low confidence</span>
-            `;
-
-            if (trips.length === 0) {
-                container.innerHTML = '<div class="no-results">No trips match your filters.</div>';
-                return;
-            }
-
-            let html = '';
-            let currentYear = '';
-
-            for (let i = 0; i < trips.length; i++) {
-                const t = trips[i];
-                const tripYear = t.StartDate.substring(0, 4);
-
-                // Year divider
-                if (tripYear !== currentYear) {
-                    currentYear = tripYear;
-                    html += `<div class="year-divider">${currentYear}</div>`;
-                }
-
-                // Gap detection
-                if (i > 0) {
-                    const prevEnd = trips[i - 1].EndDate;
-                    const currStart = t.StartDate;
-                    if (prevEnd && currStart) {
-                        const gap = daysBetween(prevEnd, currStart);
-                        if (gap > 3 && trips[i-1].StartDate.substring(0,4) === tripYear) {
-                            html += `<div class="gap-warning">${gap} day gap: ${formatDate(prevEnd)} to ${formatDate(currStart)}</div>`;
-                        }
-                    }
-                }
-
-                const typeClass = t.Type.toLowerCase();
-                const isLowConf = t.Confidence === 'low' || t.Confidence === 'medium';
-                const cardClasses = ['trip-card'];
-                if (isLowConf && t.Confidence === 'low') cardClasses.push('low-confidence');
-                if (!t.Verified) cardClasses.push('unverified');
-
-                const duration = daysBetween(t.StartDate, t.EndDate);
-
-                html += `
-                    <div class="${cardClasses.join(' ')}">
-                        <div class="type-bar ${typeClass}"></div>
-                        <div class="trip-info">
-                            <div class="trip-title">${t.Title}</div>
-                            <div class="trip-dates">
-                                ${formatDate(t.StartDate)} — ${formatDate(t.EndDate)}
-                                <span style="color: var(--text-muted); font-size: 0.8rem;">(${duration} day${duration !== 1 ? 's' : ''})</span>
-                            </div>
-                            <div class="trip-route">
-                                ${t.StartCity} <span class="country-code">${t.StartCountryCode}</span>
-                                → ${t.EndCity} <span class="country-code">${t.EndCountryCode}</span>
-                                ${t.Carrier ? ' · ' + t.Carrier : ''}
-                            </div>
-                            ${t.Notes ? `<div class="trip-notes">${t.Notes}</div>` : ''}
-                        </div>
-                        <div class="trip-meta">
-                            <div><span class="badge ${typeClass}">${t.Type}</span></div>
-                            <div><span class="badge ${t.Verified ? 'verified' : 'unverified'}">${t.Verified ? '✓ Verified' : '? Unverified'}</span></div>
-                            ${t.Confidence !== 'high' ? `<div><span class="badge confidence-${t.Confidence}">${t.Confidence} conf.</span></div>` : ''}
-                            ${t.BookingRef ? `<div class="trip-booking">${t.BookingRef}</div>` : ''}
-                        </div>
-                    </div>
-                `;
-            }
-
-            container.innerHTML = html;
-        }
-
-        // Event listeners
-        document.getElementById('search').addEventListener('input', render);
-        document.getElementById('filter-year').addEventListener('change', render);
-        document.getElementById('filter-type').addEventListener('change', render);
-        document.getElementById('filter-country').addEventListener('change', render);
-        document.getElementById('filter-verified').addEventListener('change', render);
-
-        loadData();
-    </script>
+loadData();
+</script>
 </body>
 </html>

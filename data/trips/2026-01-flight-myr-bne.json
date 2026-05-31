@@ -14,7 +14,9 @@
   "Verified": true,
   "Confidence": "high",
   "Notes": "Companion: Genna Grace Gubitosi. Pre-ordered menu Jan 8, Jan 13.",
-  "Companions": ["Genna Grace Gubitosi"],
+  "Companions": [
+    "Genna Grace Gubitosi"
+  ],
   "Highlights": [],
   "DaysUnaccounted": 0
 }

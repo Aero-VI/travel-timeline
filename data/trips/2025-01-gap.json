@@ -4,7 +4,7 @@
   "Title": "Gap: Post-Firenze to UK Flight",
   "StartDate": "2025-01-24",
   "EndDate": "2025-02-25",
-  "StartCity": "Unknown",
+  "StartCity": "Long Beach",
   "EndCity": "Denver",
   "StartCountryCode": "US",
   "EndCountryCode": "US",
@@ -13,7 +13,7 @@
   "BookingRef": "",
   "Verified": false,
   "Confidence": "low",
-  "Notes": "Between Mexican Riviera cruise and UK flight. Likely home in Myrtle Beach or moved to Denver.",
+  "Notes": "Between Mexican Riviera cruise and UK flight. Likely home or transit.",
   "Companions": [],
   "Highlights": [],
   "DaysUnaccounted": 33

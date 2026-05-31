@@ -1,0 +1,20 @@
+{
+  "TripId": "2026-06-gap-post-baltic",
+  "Type": "Unknown",
+  "Title": "Gap: Post-Baltic to Alaska",
+  "StartDate": "2026-06-21",
+  "EndDate": "2026-09-16",
+  "StartCity": "Copenhagen",
+  "EndCity": "Unknown",
+  "StartCountryCode": "DK",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Large gap between Baltic cruise and Alaska cruise. Likely combination of Europe travel and home.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 88
+}

@@ -1,9 +1,9 @@
 {
-  "TripId": "2026-06-copenhagen-flight",
+  "TripId": "2026-06-flight-copenhagen",
   "Type": "Flight",
   "Title": "Flight to Copenhagen",
   "StartDate": "2026-06-05",
-  "EndDate": "2026-06-06",
+  "EndDate": "2026-06-07",
   "StartCity": "Myrtle Beach",
   "EndCity": "Copenhagen",
   "StartCountryCode": "US",

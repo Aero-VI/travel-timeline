@@ -13,8 +13,10 @@
   "BookingRef": "LK81N1",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "Dining email confirmed. Cancellation notice Nov 12 (flagged suspicious by Gmail). Casino survey Nov 19-26.",
+  "Notes": "Cancellation notice Nov 12 (flagged suspicious). Casino survey Nov 19-26.",
   "Companions": [],
-  "Highlights": ["Celebration Key"],
+  "Highlights": [
+    "Celebration Key"
+  ],
   "DaysUnaccounted": 0
 }

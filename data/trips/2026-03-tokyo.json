@@ -3,7 +3,7 @@
   "Type": "Hotel",
   "Title": "Tokyo - Extended Stay",
   "StartDate": "2026-03-03",
-  "EndDate": "2026-04-03",
+  "EndDate": "2026-04-02",
   "StartCity": "Tokyo",
   "EndCity": "Tokyo",
   "StartCountryCode": "JP",
@@ -13,8 +13,12 @@
   "BookingRef": "",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "Multiple hotels: Red Roof Inn Kamata (974075022), APA Hotel Akihabara (1706528516), Daiwa Roynet (982432630). F1 at Tokyo Tower, Honda exhibition.",
+  "Notes": "Multiple hotels: Red Roof Inn Kamata, APA Hotel Akihabara, Daiwa Roynet. F1 at Tokyo Tower, Honda exhibition.",
   "Companions": [],
-  "Highlights": ["Tokyo", "Akihabara", "F1 at Tokyo Tower"],
+  "Highlights": [
+    "Tokyo",
+    "Akihabara",
+    "F1 at Tokyo Tower"
+  ],
   "DaysUnaccounted": 0
 }

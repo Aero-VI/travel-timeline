@@ -1,0 +1,22 @@
+{
+  "TripId": "2022-02-carnival-sunshine",
+  "Type": "Cruise",
+  "Title": "Carnival Sunshine - Caribbean",
+  "StartDate": "2022-02-19",
+  "EndDate": "2022-02-26",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Cruise",
+  "Carrier": "Carnival Cruise Line",
+  "BookingRef": "Q53GB2",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Post-cruise email Mar 3. Destination likely Caribbean.",
+  "Companions": [
+    "John Halka"
+  ],
+  "Highlights": [],
+  "DaysUnaccounted": 0
+}

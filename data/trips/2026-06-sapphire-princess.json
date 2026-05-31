@@ -13,8 +13,15 @@
   "BookingRef": "DXHVVQ",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "Voyage H616. 12 Days Europe Baltic. British registry. Booked Apr 13, 2026. Affirm plan $166.13/mo. Travel agent: Kari Ann. Ports: Oslo, Skagen, Bornholm, Visby, Stockholm, Helsinki, Tallinn, Riga, Gdynia/Gdansk.",
+  "Notes": "Voyage H616. 12 Days. Ports: Oslo, Skagen, Bornholm, Visby, Stockholm, Helsinki, Tallinn, Riga, Gdynia/Gdansk.",
   "Companions": [],
-  "Highlights": ["Oslo", "Stockholm", "Helsinki", "Tallinn", "Riga", "Gdansk"],
+  "Highlights": [
+    "Oslo",
+    "Stockholm",
+    "Helsinki",
+    "Tallinn",
+    "Riga",
+    "Gdansk"
+  ],
   "DaysUnaccounted": 0
 }

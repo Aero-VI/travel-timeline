@@ -13,8 +13,11 @@
   "BookingRef": "JX96T4",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "SE Asia from Singapore. Itinerary change notice Mar 23. Casino survey Feb 5. Cancellation notice Jan 22 (flagged suspicious).",
+  "Notes": "SE Asia from Singapore. Casino survey Feb 5.",
   "Companions": [],
-  "Highlights": ["SE Asia", "Singapore"],
+  "Highlights": [
+    "SE Asia",
+    "Singapore"
+  ],
   "DaysUnaccounted": 0
 }

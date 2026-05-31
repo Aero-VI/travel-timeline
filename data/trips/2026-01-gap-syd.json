@@ -1,0 +1,22 @@
+{
+  "TripId": "2026-01-gap-syd",
+  "Type": "Unknown",
+  "Title": "Gap: Sydney Stay",
+  "StartDate": "2026-01-27",
+  "EndDate": "2026-01-31",
+  "StartCity": "Sydney",
+  "EndCity": "Sydney",
+  "StartCountryCode": "AU",
+  "EndCountryCode": "AU",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "medium",
+  "Notes": "In Sydney between flights.",
+  "Companions": [],
+  "Highlights": [
+    "Sydney"
+  ],
+  "DaysUnaccounted": 5
+}

@@ -1,0 +1,22 @@
+{
+  "TripId": "2022-05-st-thomas",
+  "Type": "Hotel",
+  "Title": "St. Thomas, USVI - A Sweet Ginger Retreat",
+  "StartDate": "2022-05-10",
+  "EndDate": "2022-05-17",
+  "StartCity": "St. Thomas",
+  "EndCity": "St. Thomas",
+  "StartCountryCode": "VI",
+  "EndCountryCode": "VI",
+  "TransportMode": "Flight",
+  "Carrier": "Airbnb",
+  "BookingRef": "",
+  "Verified": true,
+  "Confidence": "high",
+  "Notes": "Airbnb near Magens Bay",
+  "Companions": [],
+  "Highlights": [
+    "Magens Bay"
+  ],
+  "DaysUnaccounted": 0
+}

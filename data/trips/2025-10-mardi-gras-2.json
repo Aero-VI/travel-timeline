@@ -13,8 +13,10 @@
   "BookingRef": "GJ85S0",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "Dining email confirmed. Casino survey Nov 10. Includes Celebration Key.",
+  "Notes": "Casino survey Nov 10. Includes Celebration Key.",
   "Companions": [],
-  "Highlights": ["Celebration Key"],
+  "Highlights": [
+    "Celebration Key"
+  ],
   "DaysUnaccounted": 0
 }

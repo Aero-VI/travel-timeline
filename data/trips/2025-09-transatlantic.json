@@ -13,8 +13,10 @@
   "BookingRef": "Z0VR58",
   "Verified": true,
   "Confidence": "medium",
-  "Notes": "14-day transatlantic. Ship unknown (likely Carnival Miracle). Boarding pass Sep 13, Sail & Sign statement Sep 27.",
+  "Notes": "14-day transatlantic. Ship unknown (likely Carnival Miracle).",
   "Companions": [],
-  "Highlights": ["Transatlantic"],
+  "Highlights": [
+    "Transatlantic"
+  ],
   "DaysUnaccounted": 0
 }

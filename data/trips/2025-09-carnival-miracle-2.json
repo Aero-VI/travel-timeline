@@ -13,8 +13,11 @@
   "BookingRef": "KX10B3",
   "Verified": true,
   "Confidence": "high",
-  "Notes": "Last-minute booking Sep 21. Dining confirmed Sep 22. Casino survey Oct 17.",
+  "Notes": "Last-minute booking Sep 21. Casino survey Oct 17.",
   "Companions": [],
-  "Highlights": ["Mediterranean", "Barcelona"],
+  "Highlights": [
+    "Mediterranean",
+    "Barcelona"
+  ],
   "DaysUnaccounted": 0
 }

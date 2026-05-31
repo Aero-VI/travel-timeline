@@ -2,7 +2,7 @@
   "TripId": "2026-05-home",
   "Type": "Home",
   "Title": "Home - Myrtle Beach",
-  "StartDate": "2026-05-04",
+  "StartDate": "2026-05-05",
   "EndDate": "2026-06-04",
   "StartCity": "Myrtle Beach",
   "EndCity": "Myrtle Beach",
@@ -13,8 +13,12 @@
   "BookingRef": "",
   "Verified": false,
   "Confidence": "medium",
-  "Notes": "Thomas graduating in May. Family Avatar movie night planned. Home period before Copenhagen flight.",
-  "Companions": ["Thomas Halka"],
-  "Highlights": ["Thomas graduation", "Family time"],
+  "Notes": "Thomas graduating in May. Family time. Home period before Copenhagen.",
+  "Companions": [
+    "Thomas Halka"
+  ],
+  "Highlights": [
+    "Thomas graduation"
+  ],
   "DaysUnaccounted": 0
 }

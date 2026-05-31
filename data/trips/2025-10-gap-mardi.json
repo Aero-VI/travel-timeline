@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-10-gap-mardi",
+  "Type": "Unknown",
+  "Title": "Gap: Between Mardi Gras sailings",
+  "StartDate": "2025-10-24",
+  "EndDate": "2025-10-29",
+  "StartCity": "Port Canaveral",
+  "EndCity": "Port Canaveral",
+  "StartCountryCode": "US",
+  "EndCountryCode": "US",
+  "TransportMode": "Unknown",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "medium",
+  "Notes": "Between back-to-back Mardi Gras sailings.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 6
+}

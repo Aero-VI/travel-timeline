@@ -1,9 +1,9 @@
 {
   "TripId": "2024-10-gap",
   "Type": "Unknown",
-  "Title": "Gap: Post-Tokyo to End of 2024",
+  "Title": "Gap: Tokyo to End of 2024",
   "StartDate": "2024-09-30",
-  "EndDate": "2025-01-17",
+  "EndDate": "2024-12-31",
   "StartCity": "Tokyo",
   "EndCity": "Unknown",
   "StartCountryCode": "JP",
@@ -13,8 +13,8 @@
   "BookingRef": "",
   "Verified": false,
   "Confidence": "low",
-  "Notes": "In Tokyo/Japan or returned home. Delta flight Nov 12 suggests movement but route unknown.",
+  "Notes": "In Tokyo/Japan or returned home. Delta flight Nov 12 (JMNXE3) suggests movement but route unknown.",
   "Companions": [],
   "Highlights": [],
-  "DaysUnaccounted": 110
+  "DaysUnaccounted": 93
 }

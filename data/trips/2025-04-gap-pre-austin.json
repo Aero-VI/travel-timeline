@@ -1,0 +1,20 @@
+{
+  "TripId": "2025-04-gap-pre-austin",
+  "Type": "Unknown",
+  "Title": "Gap: Hotel to Austin",
+  "StartDate": "2025-04-08",
+  "EndDate": "2025-04-09",
+  "StartCity": "Unknown",
+  "EndCity": "Unknown",
+  "StartCountryCode": "FR",
+  "EndCountryCode": "US",
+  "TransportMode": "Flight",
+  "Carrier": "",
+  "BookingRef": "",
+  "Verified": false,
+  "Confidence": "low",
+  "Notes": "Transit between Europe and Austin.",
+  "Companions": [],
+  "Highlights": [],
+  "DaysUnaccounted": 2
+}
